@@ -1,0 +1,15 @@
+print("=" * 35)
+print("   学生成绩管理系统")
+print("=" * 35)
+print("=" * 35)
+print("   学生成绩管理系统")
+print("=" * 35)
+
+print("1. 添加学生")
+print("2. 查询学生")
+print("3. 修改成绩")
+print("4. 删除学生")
+print("5. 退出")
+choice = input("请选择功能：")
+
+print("你选择的是：", choice)
