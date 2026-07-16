@@ -13,4 +13,11 @@ class StudentManager:
         student = Student(name, age, id, major)
         self.students.append(student) 
         print("添加成功")
+    def search_student(self):
+        id = input("输入学生ID: ")
+        for student in self.students:
+            if student.id == id:
+                print(f"学生信息: 姓名: {student.name}, 年龄: {student.age}, ID: {student.id}, 专业: {student.major}")
+                return
+        print("未找到该学生信息。")
    
